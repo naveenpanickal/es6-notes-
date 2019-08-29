@@ -1,5 +1,5 @@
 /////////////////////////////////
-// Lecture: Blocks and IIFEs
+// Blocks and IIFEs
 
 
 // ES6
