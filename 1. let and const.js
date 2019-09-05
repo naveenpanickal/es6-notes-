@@ -24,11 +24,8 @@ function driversLicence5(passedTest) {
         var firstName = 'John';
         var yearOfBirth = 1990;
     }
-    
-    
     console.log(firstName + ', born in ' + yearOfBirth + ', is now officially allowed to drive a car.');
 }// console.log prints the output as the var declared inside the if block is accessible in the driverLicense5 function.
-
 driversLicence5(true);
 
 
@@ -45,19 +42,16 @@ function driversLicence6(passedTest) {
     
     console.log(firstName + ', born in ' + yearOfBirth + ', is now officially allowed to drive a car.');
 }
-
 driversLicence6(true);
 
 
 //ES5
 
 var i = 23;
-
 for (var i = 0; i < 5; i++) {
     console.log(i);// Outout : 0 1 2 3 4
 }
-
-console.log(i); // Output:5 
+\console.log(i); // Output:5 
 
 //ES6
 

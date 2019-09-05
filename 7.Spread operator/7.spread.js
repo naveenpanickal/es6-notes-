@@ -17,8 +17,6 @@ console.log(sum2);
 //ES6
 const sum3 = addFourAges(...ages);/* instead of converting then to arguments as in es5, we can use the spread operator "..." to pass array.*/
 console.log(sum3);
-
-
 const familySmith = ['John', 'Jane', 'Mark'];
 const familyMiller = ['Mary', 'Bob', 'Ann'];
 const bigFamily = [...familySmith, 'Lily', ...familyMiller];
@@ -28,9 +26,8 @@ console.log(bigFamily);
 const h = document.querySelector('h1');
 const boxes = document.querySelectorAll('.box');
 const all = [h, ...boxes];
-
 Array.from(all).forEach(cur => cur.style.color = 'purple');
-
+/*spread operator spreads the array into its components*/
 
 
 

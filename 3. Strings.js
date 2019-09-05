@@ -15,8 +15,6 @@ console.log('This is ' + firstName + ' ' + lastName + '. He was born in ' + year
 
 // ES6
 console.log(`This is ${firstName} ${lastName}. He was born in ${yearOfBirth}. Today, he is ${calcAge(yearOfBirth)} years old.`);
-
-
 const n = `${firstName} ${lastName}`;
 console.log(n.startsWith('j'));
 console.log(n.endsWith('Sm'));

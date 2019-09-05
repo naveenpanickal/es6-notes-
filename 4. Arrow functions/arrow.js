@@ -26,9 +26,6 @@ ages6 = years.map((el, index) => {
 console.log(ages6);
 
 
-
-
-
 /////////////////////////////////
 //Arrow functions 2
 
