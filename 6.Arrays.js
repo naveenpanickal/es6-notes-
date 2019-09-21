@@ -69,4 +69,33 @@ const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bik
    console.log(transportation);
 
 
+//array.sort()
+
+  const people = [
+      { name: 'Wes', year: 1988 },
+      { name: 'Kait', year: 1986 },
+      { name: 'Irv', year: 1970 },
+      { name: 'Lux', year: 2015 }
+    ];
+
+  const olderThan19 = people.some(element=>
+   {console.log(element.year);
+    return (2019- element.year)>= 19;}
+    );
+    console.log(olderThan19);// output: 1988 true
+/* sort method takes elements from array and checks whether the condition satisfies atleast once . and quits once an element satisfying the condition is found*/
+
+//array.every()
+const allOlderThan19 = people.every(element=>
+   {
+    return (2019- element.year)>= 19;}
+    );
+    console.log(allOlderThan19);
+/*check each element to see whether it satisfies the condition for every element.if it does it returns true , else false*/
+
+
+
+
+
+
 
